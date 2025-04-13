@@ -9,4 +9,28 @@
   --regular-font-weight: 400;
   --bold-font-weight: 700;
   --font-family: 'IBM Plex mono', monospace, sans-serif;
+
+  /* переменные для темы */
+  --bg-color: #000028;
+  --base-color: #F1B2CE;
+  --accent-color: #FF0070;
+  --header-bg-image: url(../images/cover-image-dark.png);
+  
+  /* переменные для кнопок */
+  --button-text-color: #FF0070;
+  --button-bg-color: transparent;
+  --button-border-color: #FF0070;
+  --button-hover-border-color: rgba(255, 0, 112, 0.4);
+
+  /* переменные для заголовка */
+  --hero-title-color: #DB00FF;
+  --hero-title-shadow-color: #FF0070;
+
+  /* переменные для текста в обводке */
+  --decorated-text-color: #000028;
+  --decorated-text-bg-color: #FF0070;
+
+  /* переменные для ссылок */
+  --link-color: #F1B2CE;
+  --link-shadow-color: #FF0070;
 }
