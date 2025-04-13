@@ -262,12 +262,12 @@
   border-block-start: none;
   border-inline-start: none;
   border-inline-end: none;
-  border-color: var(--button-hover-border-color);
+  border-color: var(--button-border-color);
 }
 
 .header__theme-menu-button_active {
   pointer-events: none;
-  border-color: var(--button-hover-border-color);
+  border-color: var(--button-border-color);
 }
 
 .header__theme-menu-list {
@@ -404,6 +404,6 @@
   align-items: center;
 }
 
-
-
-
+.footer__title {
+  text-shadow: 2px 2px 0 var(--decorated-text-bg-color);
+}
