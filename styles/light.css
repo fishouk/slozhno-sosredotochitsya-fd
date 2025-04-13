@@ -61,9 +61,13 @@
     --decorated-text-color: #353430;
     --decorated-text-bg-color: #FF8DCB;
 
-      /* переменные для ссылок */
-  --link-color: #353430;
-  --link-shadow-color: #FF8DCB;
+    /* переменные для ссылок */
+    --link-color: #353430;
+    --link-shadow-color: #FF8DCB;
+  }
+
+  .header__rec {
+    display: none;
   }
 }
 
