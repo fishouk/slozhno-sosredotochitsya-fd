@@ -177,7 +177,7 @@ a {
 
 @media (width >= 768px) {
   .grid-variant-1 {
-    grid-template-columns: 1fr 2fr; 
+    grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr;
   }
 }
