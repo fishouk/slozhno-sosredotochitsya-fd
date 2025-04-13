@@ -2,3 +2,11 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+:root {
+  /* общие переменные */
+  --base-font-size: 18px;
+  --base-line-height: 130%;
+  --regular-font-weight: 400;
+  --bold-font-weight: 700;
+  --font-family: 'IBM Plex mono', monospace, sans-serif;
+}

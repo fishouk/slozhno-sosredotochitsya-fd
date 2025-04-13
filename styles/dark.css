@@ -8,7 +8,58 @@
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
-  */
+  */ 
+
+    /* переменные для темы */
+  --bg-color: #000028;
+  --base-color: #F1B2CE;
+  --accent-color: #FF0070;
+  --header-bg-image: url(../images/cover-image-dark.png);
+  
+  /* переменные для кнопок */
+  --button-text-color: #FF0070;
+  --button-bg-color: transparent;
+  --button-border-color: #FF0070;
+  --button-hover-border-color: rgba(255, 0, 112, 0.4);
+
+  /* переменные для заголовка */
+  --hero-title-color: #DB00FF;
+  --hero-title-shadow-color: #FF0070;
+
+  /* переменные для текста в обводке */
+  --decorated-text-color: #000028;
+  --decorated-text-bg-color: #FF0070;
+
+  /* переменные для ссылок */
+  --link-color: #F1B2CE;
+  --link-shadow-color: #FF0070;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* переменные для темы */
+    --bg-color: #000028;
+    --base-color: #F1B2CE;
+    --accent-color: #FF0070;
+    --header-bg-image: url(../images/cover-image-dark.png);
+    /* переменные для кнопок */
+    --button-text-color: #FF0070;
+    --button-bg-color: transparent;
+    --button-border-color: #FF0070;
+    --button-hover-border-color: rgba(255, 0, 112, 0.4);
+  
+    /* переменные для заголовка */
+    --hero-title-color: #DB00FF;
+    --hero-title-shadow-color: #FF0070;
+  
+    /* переменные для текста в обводке */
+    --decorated-text-color: #000028;
+    --decorated-text-bg-color: #FF0070;
+
+    /* переменные для ссылок */
+    --link-color: #F1B2CE;
+    --link-shadow-color: #FF0070;
+  }
 }
 
 .theme-dark .page {
