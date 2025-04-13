@@ -18,7 +18,7 @@
   </head>
   <body class="page">
     <header class="content__section content__section-indentation-small decorated-zone header">
-      <div class="header__rec" aria-hidden="true" role="presentation">Rec</div>
+      <span class="header__rec" aria-hidden="true" role="presentation">Rec</span>
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
@@ -46,13 +46,17 @@
         </ul>
       </nav>
       <h1 class="hero__title header__title">No focus</h1>
-      <p class="decorated-text header__subtitle">
-        Что делать, когда не можешь делать ничего <br />
-        Или почему нам так сложно сконцентрироваться, особенно когда очень надо
-      </p>
+      <div class="decorated-text header__subtitle">
+        <p>
+          Что делать, когда не можешь делать ничего
+        </p>
+        <p>
+          Или почему нам так сложно сконцентрироваться, особенно когда очень надо
+        </p>
+      </div>
     </header>
     <main class="content content__section">
-      <section class="grid-variant-1 content__section-indentation">
+      <section class="grid-variant-column content__section-indentation">
         <h2 class="content__title">Почему сосредоточиться так сложно</h2>
         <div class="content__text">
           <article class="content__text-item">
@@ -71,8 +75,8 @@
       </section>
 
       <section class="content__section-indentation">
-        <h2 class="grid-variant-2__title content__title">Что снижает концентрацию внимания?</h2>
-        <div class="content__text grid-variant-2">
+        <h2 class="grid-variant-row__title content__title">Что снижает концентрацию внимания?</h2>
+        <div class="content__text grid-variant-row">
           <article class="content__text-item">
             <h3 class="decorated-text content__text-title">Многозадачность</h3>
             <p>
@@ -94,7 +98,7 @@
         </div>
       </section>
 
-      <section class="grid-variant-1 content__section-indentation">
+      <section class="grid-variant-column content__section-indentation">
         <h2 class="content__title">Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх секунд)</h2>
         <div class="content__text">
           <article class="content__text-item">
@@ -134,11 +138,11 @@
       <section class="gallery content__section-indentation-small">
         <h2 class="decorated-text gallery__title">А можно в картинках?</h2>
         <div class="gallery__images">
-          <img src="./images/sunset.png" alt="sunset image" class="gallery__image gallery__image-sunset">
-          <img src="./images/ice-cream.png" alt="ice-cream image" class="gallery__image gallery__image-ice-cream">
-          <img src="./images/tape.png" alt="tape image" class="gallery__image gallery__image-tape">
-          <img src="./images/books.png" alt="books image" class="gallery__image gallery__image-books">
-          <img src="./images/street.png" alt="street image" class="gallery__image gallery__image-street">        
+          <img src="./images/sunset.png" alt="sunset image" loading="lazy" class="gallery__image gallery__image-sunset">
+          <img src="./images/ice-cream.png" alt="ice-cream image" loading="lazy" class="gallery__image gallery__image-ice-cream">
+          <img src="./images/tape.png" alt="tape image" loading="lazy" class="gallery__image gallery__image-tape">
+          <img src="./images/books.png" alt="books image" loading="lazy" class="gallery__image gallery__image-books">
+          <img src="./images/street.png" alt="street image" loading="lazy" class="gallery__image gallery__image-street">        
         </div> 
       </section>
     </main>
