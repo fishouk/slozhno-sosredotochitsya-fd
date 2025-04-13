@@ -80,7 +80,7 @@
 
 @media (width >= 768px) {
   .header__theme-menu-list {
-    padding-top: 17.2vw;
+    padding-top: 172px;
   }
 }
 
@@ -95,21 +95,21 @@
 }
 
 .header__title {
-  padding-block-start: 6.6vh;
-  padding-block-end: 5.5vh;
+  padding-block-start: 66px;
+  padding-block-end: 55px;
 }
 
 @media (width >= 768px) {
   .header__title {
-    padding-block-start: 16.2vh;
-    padding-block-end: 17.4vh;
+    padding-block-start: 162px;
+    padding-block-end: 174px;
   }
 }
 
 @media (width >= 1024px) {
   .header__title {
-    padding-block-start: 27.4vh;
-    padding-block-end: 16.2vh;
+    padding-block-start: 274px;
+    padding-block-end: 162px;
   }
 }
 
