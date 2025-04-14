@@ -60,8 +60,16 @@
     --link-color: #F1B2CE;
     --link-shadow-color: #FF0070;
   }
+
+  .header__rec {
+    display: block;
+  }
 }
 
 .theme-dark .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
+}
+
+.theme-dark .header__rec {
+  display: block;
 }
